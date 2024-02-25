@@ -73,3 +73,6 @@ ensure<InvalidOwnerIdException>(owner.id > 0) {
 - ❌ The extension functions opt in to
   the [ExperimentalContracts](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.contracts/-experimental-contracts/),
   which, as the name suggests, is an experimental feature.
+
+> [!IMPORTANT]
+> To minimize performance overhead, we plan to integrate [KSP](https://kotlinlang.org/docs/ksp-overview.html) into the project and extend its functionality to be available in Kotlin Multiplatform.
